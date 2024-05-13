@@ -1,4 +1,9 @@
-/* Reset styles */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -32,4 +37,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.loader.is-hidden {
+  display: none;
 }
